@@ -15,8 +15,11 @@ Purpose of Random classifier: One of the most important features of the Random F
 ## Algorithm ##
 
 1.In Random forest n number of random records are taken from the data set having k number of records.
+
 2.Individual decision trees are constructed for each sample.
+
 3.Each decision tree will generate an output.
+
 4.Final output is considered based on Majority Voting or Averaging for Classification and regression respectively.
 
 Program:
@@ -24,8 +27,8 @@ Program:
 Program to implement random classification.
 
 Developed by   : GANAPATHI VENKATESH
-
 Register Number : 212220230018
+
 import matplotlib.pyplot as plt
 from sklearn import datasets
 x,y=datasets.make_blobs(n_samples=100,n_features=2,centers=2,cluster_std=1.05,random_state=2)
@@ -38,7 +41,7 @@ plt.title('Random Classification Data with 2 classes')
 ```
 
 ## Output: ##
-![IMG]()
+![IMG](https://github.com/20004426-venkatesh/Random-Classification/blob/main/n1.jpg)
 
 ## Result:
 Thus the random classifier was successfully implemented using python programming.
